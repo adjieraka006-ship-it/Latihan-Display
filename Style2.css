@@ -1,0 +1,44 @@
+.container{
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5px;
+    /* membersihkan float bisa juga dengan clear */
+    overflow: auto;
+}
+.satu,.dua, .tiga {
+    width: 100px;
+    height: 100px;
+}
+.satu {
+    background-color: burlywood;
+}
+.dua {
+    background-color: blueviolet;
+    float: right;
+}
+.satu {
+    background-color: burlywood;
+}
+img{
+    float: left;
+    margin: 5px;
+}
+.kiri{
+    width: 150px;
+height: 500PX;
+background-color: blueviolet;
+float: left;
+}
+
+.tengah{
+width: 500px;
+height: 500PX;
+background-color: brown;
+float: left;
+}
+.kanan {
+width: 150px;
+height: 500PX;
+background-color: cadetblue;
+float: left;}
