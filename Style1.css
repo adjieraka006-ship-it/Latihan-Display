@@ -1,0 +1,245 @@
+.frame {
+  background-color: #eaeed3;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.frame .div {
+  background-color: #eaeed3;
+  width: 1000px;
+  height: 700px;
+  position: relative;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  top: 29px;
+  left: 40px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper {
+  left: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 91px;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Poppins-ExtraLight", Helvetica;
+  font-weight: 200;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .div-wrapper-2 {
+  left: 143px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 91px;
+}
+
+.frame .div-wrapper-3 {
+  left: 246px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 91px;
+}
+
+.frame .div-wrapper-4 {
+  left: 367px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 91px;
+}
+
+.frame .div-wrapper-5 {
+  left: 492px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+  position: absolute;
+  top: 91px;
+}
+
+.frame .mask-group {
+  position: absolute;
+  width: 1000px;
+  height: 300px;
+  top: 153px;
+  left: 0;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 467px;
+  left: 20px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .keindahan-alam {
+  position: absolute;
+  top: 537px;
+  left: 21px;
+  font-family: "Poppins-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .p {
+  position: absolute;
+  top: 497px;
+  left: 20px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+* Pengaturan Header */
+header {
+    background-color: white;
+    padding: 1rem 2rem;
+    position: sticky; /* Membuat header tetap di atas saat di-scroll */
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding: 0;
+}
+.nav-list a {
+    color: #333;
+    font-weight: bold;
+}
+.text-wrapper {
+    margin: 0;
+}
+
+/* Pengaturan Artikel */
+article {
+    padding: 2rem;
+    text-align: center;
+}
+.mask-group {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* PENTING: Membuat halaman menjadi panjang agar bisa di-scroll */
+.placeholder-section {
+  height: 100vh; /* Membuat tinggi setiap section = 100% tinggi layar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-top: 1px solid #eee;
+}
+
+/* Memberi warna berbeda agar scroll terlihat jelas */
+#about { background-color: #eaf2f8; }
+#product { background-color: #e8f6f3; }
+#services { background-color: #fef5e7; }
+#contact { background-color: #fdebd0; }
+/* Original CSS code should be injected here */
+
+/* Additional CSS for semantic HTML improvements */
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 12px;
+}
+
+.text-wrapper-2 {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.text-wrapper-2:hover {
+  text-decoration: underline;
+}
+
+.text-wrapper-2:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Ensure proper focus styles for navigation */
+.div-wrapper a:focus,
+.div-wrapper-2 a:focus,
+.div-wrapper-3 a:focus,
+.div-wrapper-4 a:focus,
+.div-wrapper-5 a:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Remove default button/link styles that might interfere */
+.text-wrapper-2:visited {
+  color: inherit;
+}
+
+
+
