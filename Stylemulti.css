@@ -14,7 +14,7 @@ footer {
     height: 40px;
 }
         nav {
-      background: rgb(73, 10, 232);
+      background: rgb(138, 159, 253);
       height: 100px;
 }
 
@@ -28,7 +28,7 @@ footer {
 .kiri {
     width: 25%;
     height: 200px;
-    background-color: rgb(26, 173, 218);
+    background-color: rgb(158, 158, 158);
     float: left;
 } 
 .tengah {
@@ -40,6 +40,6 @@ footer {
 .kanan {
     width: 25%;
     height: 200px;
-    background-color: rgb(26, 173, 218);
+    background-color: rgb(158, 158, 158);
     float: left;
 }
